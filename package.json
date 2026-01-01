@@ -1,0 +1,23 @@
+{
+  "name": "ian-tech-pairing-service",
+  "version": "2.0.0",
+  "type": "module",
+  "main": "pairing-server.js",
+  "scripts": {
+    "start": "node pairing-server.js",
+    "dev": "nodemon pairing-server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.0",
+    "mongoose": "^7.0.0",
+    "qrcode": "^1.5.3",
+    "nodemailer": "^6.9.0",
+    "express-rate-limit": "^6.0.0",
+    "helmet": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
