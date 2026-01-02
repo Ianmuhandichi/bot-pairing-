@@ -1,0 +1,22 @@
+{
+  "name": "ian-tech-whatsapp-pairing",
+  "version": "5.0.0",
+  "description": "IAN TECH WhatsApp Pairing Server with Alphanumeric Codes",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["whatsapp", "pairing", "qr", "alphanumeric", "baileys"],
+  "author": "IAN TECH",
+  "license": "ISC",
+  "dependencies": {
+    "@whiskeysockets/baileys": "npm:gifted-baileys@2.0.0",
+    "express": "^4.19.2",
+    "qrcode-terminal": "^0.12.0",
+    "qrcode": "^1.5.3",
+    "pino": "^7.0.5",
+    "crypto": "^1.0.1"
+  }
+}
